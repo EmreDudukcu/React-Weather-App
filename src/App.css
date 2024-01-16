@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/id/1300296030/tr/foto%C4%9Fraf/tropikal-plaj-palmiye-a%C4%9Fa%C3%A7lar%C4%B1-deniz-dalgas%C4%B1-ve-beyaz-kum.jpg?s=612x612&w=0&k=20&c=1CcF4X1o-vsBH12SIZrgqJp9PP-eWUgNE3hbjBMpL5c=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.selected-city {
+  background-color: rgba(55, 233, 120, 0.4);
+  backface-visibility: hidden;
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+  margin: 15px;
+  justify-content: space-around;
+  padding: 15px 0px;
+}
+.weather-current {
+  background-color: rgba(55, 233, 120, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+  align-items: center;
+}
+
+.weather-other {
+  background-color: rgba(55, 233, 120, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+}
+
+.weather-daily {
+  background-color: rgba(55, 233, 120, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.weather-daily-w {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 15px;
+}
+
+.link {
+  text-decoration: none;
+}
+.weather-daily-w:hover {
+  background-color: rgba(55, 233, 120, 0.8);
+  border-radius: 15px;
+}
+
+.weather-daily-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.weather-daily-details-w {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+  justify-content: space-around;
+}
